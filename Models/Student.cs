@@ -20,7 +20,7 @@ namespace CodeFirst2.Models
         [RegularExpression(@"^[a-zA-Z''-'\s]{1,40}$", ErrorMessage ="Invalid Name")]
         public String std_name { get; set; }
 
-
+        // Some Change gterg sgdfggf
 
         [Required(ErrorMessage = "Address is Required")]
         public String address { get; set; }
