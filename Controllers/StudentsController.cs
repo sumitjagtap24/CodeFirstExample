@@ -20,6 +20,8 @@ namespace CodeFirst2.Controllers
             return View(db.Students.ToList());
         }
 
+        //FGFSGD
+
         // GET: Students/Details/5
         public ActionResult Details(int? id)
         {
